@@ -28,7 +28,7 @@ class WelcomeScreen extends StatelessWidget {
                     ),
                   ),
                   child: Center(
-                    child: Image.asset("images/books.png"),
+                    child: Image.asset("assets/images/books.png"),
                   ),
                 )
               ],
