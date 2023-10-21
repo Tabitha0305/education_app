@@ -93,10 +93,11 @@ class WelcomeScreen extends StatelessWidget {
                               builder: (context) => HomePage(),
                           )); 
                         },
-                        child: Container(
+                        child:
+                        Container(
                           padding: EdgeInsets.symmetric(
                             vertical: 15, horizontal: 80),
-                        ), // EdgeInsets.symmetrical
+                         
                         child: Text(
                           "Get Started",
                           style: TextStyle(
@@ -108,7 +109,7 @@ class WelcomeScreen extends StatelessWidget {
                         ), 
                       ), 
                     ),     
-                  ]
+                 ) ]
                 ),
               ),
             ),
